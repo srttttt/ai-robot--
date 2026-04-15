@@ -1,0 +1,25 @@
+1. 发布者（Publisher）和订阅者（Subscriber）的区别
+在 ROS 中：
+
+
+发布者（Publisher）：向某个 Topic 发送数据的节点。
+
+
+订阅者（Subscriber）：从 Topic 接收数据的节点。
+
+
+简单说：
+发布者 = 发送信息
+订阅者 = 接收信息
+
+2. 同时控制两个机器人需要的条件
+
+
+每个机器人要有 不同的 Namespace（命名空间）
+
+
+每个机器人使用 不同的 Topic（例如 /robot1/cmd_vel、/robot2/cmd_vel）
+
+
+控制节点向对应 Topic 发布控制消息。
+
