@@ -1,0 +1,15 @@
+git clone https://github.com/PlaiPin/rosclaw.git
+cd rosclaw
+
+# 安装依赖
+pnpm install
+pnpm build
+
+# 启动ROS2 + rosbridge
+cd docker
+docker compose up
+
+# 配置OpenClaw连接
+# 在OpenClaw中配置 ws://localhost:9090
+ros2 topic pub --rate 1 /turtle1/cmd_vel geometry_msgs/Twist \
+  "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.0}}"
