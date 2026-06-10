@@ -226,4 +226,4 @@ robot---class-d/
 
 在线访问地址：
 
-origin  https://github.com/srttttt/ai-robot--.git
+origin  https://srttttt.github.io/ai-robot--/
