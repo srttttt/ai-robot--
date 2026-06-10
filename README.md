@@ -1,228 +1,222 @@
-# AI机器人课程作业
+下面给你整理一份**完整可直接用的 GitHub 主页 README（最终作品集版本）**，已经把👇全部整合好了：
 
-本仓库整理了 AI 机器人课程的每周作业、实验记录与学习笔记，内容涵盖：
+* 🎨 封面 Banner
+* 🏷️ 徽章系统
+* 📌 项目简介
+* 📸 截图展示墙
+* 📚 课程完整结构（Week1–Week13）
+* 🧠 技术栈总结
+* 🐾 四足机器人总结
+* 🚀 GitHub Pages链接
+* 👤个人信息
+* 📊能力成长路径
 
-- ROS2 基础
-- Linux 与 WSL 环境配置
-- GitHub 与 VS Code 使用
-- Python 机器人仿真
-- Docker 容器技术
-- OpenCV 图像处理
-- GitHub Pages 网页部署
-- 机器人运动学与传感器基础
-
-通过每周实验，逐步学习机器人开发环境搭建、ROS2 通信机制、仿真控制以及 AI 机器人相关技术。
-
----
-
-# 课程作业目录
-
-## 第 1 周：课程介绍与开发环境认识
-
-学习内容：
-
-- AI机器人课程介绍
-- Ubuntu 与 Linux 基础认识
-- ROS2 简介
-- 开发环境说明
+你可以直接整段复制到 README.md 👇
 
 ---
 
-## 第 2 周：WSL、Ubuntu 与 ROS2 环境配置
+# 🤖 AI Robotics Course Project
 
-学习内容：
-
-- 安装 WSL2
-- 安装 Ubuntu
-- 安装 ROS2 Humble
-- 配置 Linux 开发环境
-
-实验内容：
-
-- ROS2 基础命令
-- 环境变量配置
-- ROS2 节点测试
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:6366f1&height=200&section=header&text=AI%20Robotics%20Course%20Project&fontSize=32&fontColor=ffffff" />
+</p>
 
 ---
 
-## 第 3 周：GitHub SSH、VS Code 与 ROS2 交互
+## 🏷️ Tech Stack
 
-学习内容：
+<p align="center">
 
-- GitHub SSH Key 配置
-- Git 基础命令
-- VS Code 远程开发
-- ROS2 Python 节点
+![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)
+![ROS2](https://img.shields.io/badge/ROS2-Humble-orange)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-WSL-E95420?logo=ubuntu)
+![Docker](https://img.shields.io/badge/Docker-Container-blue?logo=docker)
+![OpenCV](https://img.shields.io/badge/OpenCV-Vision-green?logo=opencv)
+![Flask](https://img.shields.io/badge/Flask-Web-lightgrey)
+![GitHub Pages](https://img.shields.io/badge/Pages-Deployed-black?logo=github)
 
-实验内容：
-
-- Hello World ROS2 节点
-- turtlesim 小乌龟控制
-- GitHub 仓库上传
-
----
-
-## 第 4 周：命令行、机器人基础与 Python 仿真
-
-学习内容：
-
-- Linux 常用命令
-- Python 基础
-- 机器人运动控制
-- PyBullet 仿真基础
-
-实验内容：
-
-- Python 小车控制
-- turtlesim 仿真
-- PyBullet 环境运行
+</p>
 
 ---
 
-## 第 5 周：Linux 目录操作与机器人运动学
+## 📌 项目简介
 
-学习内容：
+本仓库为 **AI机器人课程完整实验与项目记录合集**，涵盖从基础环境搭建到机器人仿真、视觉处理、网络通信以及四足机器人控制的完整学习路径。
 
-- Linux 文件管理
-- 坐标系与运动学
-- 差速驱动模型
-- 里程计基础
+项目目标是构建一个从：
 
-实验内容：
+> 🧩 环境搭建 → 🤖 ROS2控制 → 🧠 仿真系统 → 📷 视觉识别 → 🌐 网络通信 → 🐾 四足机器人
 
-- turtlesim 位姿读取
-- 运动轨迹观察
-- pose 数据分析
+的完整机器人学习闭环。
 
 ---
 
-## 第 6 周：传感器介绍与 ROS2 可视化实验
+## 📸 实验截图展示
 
-学习内容：
+> （建议将图片放入 `/img` 文件夹）
 
-- 激光雷达（LiDAR）
-- 相机与图像数据
-- ROS2 Topic 通信
-- RViz 可视化
+### 🧪 ROS2 turtlesim 控制
 
-实验内容：
-
-- /scan 激光数据查看
-- RViz 数据显示
-- turtlesim 与传感器实验
+<p align="center">
+  <img src="img/week3.png" width="320">
+</p>
 
 ---
 
-## 第 7 周：Markdown 与 GitHub 作业整理
+### 🧪 RViz 可视化实验
 
-学习内容：
-
-- Markdown 基础语法
-- README 编写
-- GitHub 仓库整理
-- 作业目录优化
-
-实验内容：
-
-- Markdown 页面排版
-- 插入图片与代码块
-- GitHub 作业结构整理
+<p align="center">
+  <img src="img/week6.png" width="320">
+</p>
 
 ---
 
-## 第 8 周：Docker 安装与 ROS2 桌面容器
+### 🧪 OpenCV 图像处理
 
-学习内容：
-
-- Docker 基础概念
-- Docker Desktop 安装
-- 镜像与容器
-- ROS2 Docker 环境
-
-实验内容：
-
-- 启动 ROS2 Desktop 容器
-- 浏览器访问 Ubuntu 桌面
-- turtlesim 小乌龟实验
+<p align="center">
+  <img src="img/week9.png" width="320">
+</p>
 
 ---
 
-## 第 9 周：Docker 概念与 OpenCV 实验
+### 🧪 Flask + 手机远程摄像头
 
-学习内容：
-
-- Docker 文件挂载
-- OpenCV 图像处理
-- Python 图像读取
-- 颜色空间转换
-
-实验内容：
-
-- OpenCV 图像显示
-- RGB 与 BGR 转换
-- Docker 容器目录挂载
+<p align="center">
+  <img src="img/week10.png" width="320">
+</p>
 
 ---
 
-## 第 10 周：机器人仿真与 AI 控制拓展
+### 🧪 四足机器人步态模拟（Week13）
 
-学习内容：
-
-- PyBullet 仿真
-- 机器人控制基础
-- OpenClaw 与 RosClaw
-- AI 控制机器人概念
-
-实验内容：
-
-- 3D 小车仿真
-- Python 控制机器人
-- 自然语言机器人控制流程
+<p align="center">
+  <img src="img/week13.png" width="320">
+</p>
 
 ---
 
-## 第 11 周：Docker 进阶与 GitHub Pages 网页部署
+## 📚 课程完整目录（Week1 - Week13）
 
-学习内容：
+### 📘 Week 1 - 课程导论
 
-- Docker 容器管理
-- Docker commit
-- GitHub Pages 部署
-- Markdown 页面优化
+* AI机器人基础概念
+* Linux / Ubuntu认识
 
-实验内容：
+### 📘 Week 2 - WSL + ROS2环境
 
-- 保存 Docker 镜像
-- 部署 GitHub Pages
-- README 页面美化
+* Ubuntu + WSL配置
+* ROS2 Humble安装
+
+### 📘 Week 3 - GitHub + ROS2控制
+
+* turtlesim控制
+* Git基础
+
+### 📘 Week 4 - Python仿真
+
+* 小车运动控制
+* PyBullet入门
+
+### 📘 Week 5 - 机器人运动学
+
+* 坐标系与里程计
+* pose分析
+
+### 📘 Week 6 - ROS2可视化
+
+* RViz
+* LiDAR数据
+
+### 📘 Week 7 - Markdown与Git整理
+
+* README规范
+* GitHub结构优化
+
+### 📘 Week 8 - Docker + ROS2
+
+* ROS2容器运行
+* Web桌面环境
+
+### 📘 Week 9 - OpenCV视觉处理
+
+* 图像处理
+* RGB/BGR转换
+
+### 📘 Week 10 - Flask + 远程视觉系统
+
+* 手机摄像头接入
+* Tailscale网络通信
+
+### 📘 Week 11 - Docker进阶 + Pages部署
+
+* 镜像保存
+* GitHub Pages上线
+
+### 📘 Week 12 - 四足机器人基础
+
+* 四足结构
+* PyBullet步态理解
+
+### 📘 Week 13 - 四足机器人收尾项目
+
+* Trot步态模拟
+* 项目整理与收尾
 
 ---
 
-# 项目结构
+## 🧠 技术能力覆盖
 
-    text
-robot---class-d/
-├── week1/
-├── week2/
-├── week3/
-├── week4/
-├── week5/
-├── week6/
-├── week7/
-├── week8/
-├── week9/
-├── week10/
-├── week11/
-├── img/
-├── README.md
-└── index.html
-关于我
-姓名：郭书豪
-学号：20231876
-专业：软件工程
-项目说明
+* Linux / WSL 开发环境
+* ROS2 分布式机器人系统
+* Python机器人仿真控制
+* OpenCV计算机视觉
+* ArUco标记识别
+* Flask实时视频流
+* Tailscale虚拟网络
+* Docker容器化部署
+* PyBullet物理仿真
+* 四足机器人步态控制
 
-本项目使用 GitHub Pages 自动部署。
+---
 
-在线访问地址：
-https://srttttt.github.io/ai-robot--/
+## 🐾 Week 13 核心内容
+
+* 四足机器人结构（LF / RF / LH / RH）
+* Trot 对角步态
+* 支撑腿 / 摆动腿切换
+* 基础稳定性控制思想
+* Python步态模拟实现
+
+---
+
+## 📊 能力成长路径
+
+```text
+基础环境搭建
+      ↓
+ROS2通信系统
+      ↓
+Python机器人仿真
+      ↓
+OpenCV视觉处理
+      ↓
+网络通信系统（Flask + Tailscale）
+      ↓
+Docker部署能力
+      ↓
+四足机器人控制系统
+```
+
+---
+
+## 🌐 在线访问
+
+👉 [https://srttttt.github.io/ai-robot--/](https://srttttt.github.io/ai-robot--/)
+
+---
+
+## 👤 About Me
+
+* 姓名：郭书豪
+* 学号：20231876
+* 专业：软件工程
