@@ -200,7 +200,7 @@
 
 # 项目结构
 
-```text
+text
 robot---class-d/
 ├── week1/
 ├── week2/
@@ -225,5 +225,4 @@ robot---class-d/
 本项目使用 GitHub Pages 自动部署。
 
 在线访问地址：
-
-origin  https://srttttt.github.io/ai-robot--/
+https://srttttt.github.io/ai-robot--/
